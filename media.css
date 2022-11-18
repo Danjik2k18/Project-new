@@ -1,0 +1,29 @@
+
+/* Desctop */
+@media screen and (max-width: 1200px) {
+    
+}
+
+/* Tablet */
+@media screen and (max-width: 992px) {
+    
+}
+
+/* Mobile */
+@media screen and (max-width: 768px) {
+    .item.hidden-block {
+        display: none;
+    }
+    h1 {
+        padding: 20px;
+        font-size: 50px;
+        color: white;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .block-one {
+        background-image: none;
+        background-color: blue;
+    }
+}

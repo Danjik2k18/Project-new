@@ -1,0 +1,36 @@
+.block-one {
+    background-image: url(./image/red-luxury-sedan-road.jpg);
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.container {
+    width: 100%;
+    max-width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+/* FLEX */
+
+.items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.item {
+    width: 20%;
+    background-color: #fff;
+    height: 100px;
+    margin-bottom: 20px;
+}
+.item.unik {
+    display: flex;
+   justify-content: space-between;
+}
+h1 {
+    font-size: 130px;
+}
